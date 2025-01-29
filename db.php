@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost"; // Replace with your server name
-$username = "root";        // Replace with your DB username
-$password = "";            // Replace with your DB password
-$dbname = "scheduleworx";  // Replace with your DB name
+$servername = "vcict.nl.mysql"; // Replace with your server name
+$username = "vcict_nlscheduleworx";        // Replace with your DB username
+$password = "scheduleworx2234";            // Replace with your DB password
+$dbname = "vcict_nlscheduleworx";  // Replace with your DB name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
